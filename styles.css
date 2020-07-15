@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    color:whitesmoke;
+}
+
+body { 
+    background: url(images/bg.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+#container {
+    width: 500px;
+    padding: 10px 10px 20px 10px;
+    margin-top: 100px;
+    border-radius: 12px;
+    background: rgba(0,0,0,0.7);
+}
+
+#toggleDiv {
+    text-align: center;
+    margin-bottom: 10px;
+}
+#toggleDiv button {
+    color: whitesmoke;
+}
+
+#signInDiv {
+    width: 400px;
+    margin: 0 auto;
+}
+
+#cacheText {
+    font-size: 80%;
+}
+
+#signUpDiv {
+    display: none;
+    width: 400px;
+    margin: 0 auto;
+}
+
